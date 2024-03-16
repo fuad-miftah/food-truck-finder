@@ -9,8 +9,8 @@ Food Truck Finder is a Django web application that helps users find the closest 
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Why Use Euclidean Distance](#WhyUseEuclideanDistance)
-- [Why Use CSV Directly](#WhyUseCSVDirectly)
+- [Why Use Euclidean Distance](#why-use-euclidean-distance)
+- [Why Use CSV Directly](#why-use-csv-directly)
 
 ## Features
 
@@ -61,7 +61,7 @@ python manage.py runserver
 
 3. Submit the form to see a list of the closest food trucks based on your input.
 
-## WhyUseEuclideanDistance
+## Why Use Euclidean Distance
 
 In this application, Euclidean distance algorithm is used to calculate distances between locations within one city. This decision was made because:
 
@@ -71,7 +71,7 @@ Applicability: Since the project focuses on finding food trucks within a city, t
 
 Efficiency: For small-scale applications like this one, the computational efficiency of the Euclidean distance algorithm is sufficient, and the overhead of using more complex algorithms is unnecessary.
 
-## WhyUseCSVDirectly
+## Why Use CSV Directly
 
 In this application, we directly read from the CSV file (food-truck-data.csv) to store and retrieve food truck information instead of saving it to a database. This approach was chosen because:
 
